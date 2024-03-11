@@ -6,6 +6,8 @@ import 'package:flutter_demo_1/screens/CrossfadeAnimation.dart';
 import 'package:flutter_demo_1/screens/Hero%20animation/HeroAnimation1.dart';
 import 'package:flutter_demo_1/screens/MyListWheelScrollView.dart';
 import 'package:flutter_demo_1/screens/MyRangeSlider.dart';
+import 'package:flutter_demo_1/screens/RippleAnimationDemo.dart';
+import 'package:flutter_demo_1/screens/TweenAnimation.dart';
 import 'package:flutter_demo_1/screens/home.dart';
 import 'package:flutter_demo_1/uihelper/util.dart';
 
@@ -27,7 +29,9 @@ class MyApp extends StatelessWidget{
         // home: AnimatedOpacityDemo(),
         // home: CrossfadeAnimation(),
         // home: HeroAnimation1(),
-        home: MyListWheelScrollView(),
+        // home: MyListWheelScrollView(),
+        // home: TweenAnimationDemo(),
+        home: RippleAnimationDemo(),
     );
   }
 }
