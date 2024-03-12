@@ -7,6 +7,7 @@ import 'package:flutter_demo_1/screens/Hero%20animation/HeroAnimation1.dart';
 import 'package:flutter_demo_1/screens/MyListWheelScrollView.dart';
 import 'package:flutter_demo_1/screens/MyRangeSlider.dart';
 import 'package:flutter_demo_1/screens/RippleAnimationDemo.dart';
+import 'package:flutter_demo_1/screens/SharedPreference/SpFlash.dart';
 import 'package:flutter_demo_1/screens/TweenAnimation.dart';
 import 'package:flutter_demo_1/screens/home.dart';
 import 'package:flutter_demo_1/uihelper/util.dart';
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget{
         // home: HeroAnimation1(),
         // home: MyListWheelScrollView(),
         // home: TweenAnimationDemo(),
-        home: RippleAnimationDemo(),
+        home: SPFlash(),
     );
   }
 }
